@@ -2,9 +2,8 @@ public class RecursoFerroviario {
     private Trem trens;
     private Vagao vagoes;
     private Locomotiva locomotivas;
-    private LinhaFerroviaria linha;
 
-    public RecursoFerroviario(Vagao vagao) {
+    public RecursoFerroviario(Vagao vagoes) {
         this.vagoes = vagoes;
     }
 
